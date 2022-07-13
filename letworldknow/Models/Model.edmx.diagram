@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8e0bf32b471b4fc88394eb49fbcd5c53" Name="Diagram1">
+        <EntityTypeShape EntityType="LetWorldKnowModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Advertisement" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.AdvertisementApplication" Width="1.5" PointX="10.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.AdvertisementType" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Comment" Width="1.5" PointX="8.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Document" Width="1.5" PointX="10.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Follow" Width="1.5" PointX="5.25" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Like" Width="1.5" PointX="5.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.Post" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.PostType" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.User" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LetWorldKnowModel.UserType" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Advertisement_AdvertisementType" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Advertisement_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_AdvertisementApplication_Advertisement" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Document_Advertisement" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_AdvertisementApplication_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Comment_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Comment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Comment_User2" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Document_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Follow_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Follow_User1" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Like_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Like_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Like_User2" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Post_PostType" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Post_User" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_Post_User2" ManuallyRouted="false" />
+        <AssociationConnector Association="LetWorldKnowModel.FK_User_UserType" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
